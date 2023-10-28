@@ -1,0 +1,53 @@
+a {
+    color: darkgoldenrod;
+    font-size:25px;
+    text-decoration: none;
+    
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+.menu {
+    height: 200px;
+    background-color: blanchedalmond;
+}
+.menu li {
+    list-style: none;
+}
+.menu {
+    list-style: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+        padding-right: 50px;
+}
+
+}
+       /*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
